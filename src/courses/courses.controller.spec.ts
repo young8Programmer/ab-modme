@@ -5,6 +5,7 @@ import { CoursesService } from './courses.service';
 
 describe('CoursesController', () => {
   let controller: CoursesController;
+// image optimization qo'shildi
 
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
