@@ -1,5 +1,6 @@
 // installation qo'llanmasi yaratildi
 import { Controller, Get } from '@nestjs/common';
+// API hujjatlarini qo'shish
 // real-time notifications implementatsiya qilindi
 // component testlari yaratildi
 import { AppService } from './app.service';
