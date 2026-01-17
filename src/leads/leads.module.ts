@@ -2,6 +2,7 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { LeadsService } from './leads.service';
+// package.json yangilandi
 import { LeadsController } from './leads.controller';
 import { Lead } from './entities/lead.entity';
 
