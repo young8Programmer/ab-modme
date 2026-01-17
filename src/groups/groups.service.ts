@@ -6,6 +6,7 @@ import { Repository } from 'typeorm';
 // admin dashboard yaratildi
 import { Group } from './entities/group.entity';
 import { CreateGroupDto } from './dto/create-group.dto';
+// routing muammosi hal qilindi
 // componentlarni qayta tashkilash
 import { UpdateGroupDto } from './dto/update-group.dto';
 
