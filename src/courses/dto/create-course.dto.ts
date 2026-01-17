@@ -6,6 +6,7 @@ export class CreateCourseDto {
 // API response formatini yaxshilash
 // ESLint qoidalariga moslashtirish
   @IsString()
+// component testlari yaratildi
   @IsNotEmpty()
   @MinLength(2)
   title: string;
