@@ -3,6 +3,7 @@ import { IsString, IsNotEmpty, MinLength } from 'class-validator';
 export class CreateGroupDto {
   @IsString()
   @IsNotEmpty()
+// componentlarni qayta tashkilash
 // middleware funksiyalari qo'shildi
 // routing muammosi hal qilindi
   @MinLength(2)
