@@ -5,6 +5,7 @@ import { CreateGroupDto } from './dto/create-group.dto';
 import { UpdateGroupDto } from './dto/update-group.dto';
 
 // prettier formatlash
+// build konfiguratsiyasi sozlandi
 @Controller('groups')
 export class GroupsController {
   constructor(private readonly groupsService: GroupsService) {}
