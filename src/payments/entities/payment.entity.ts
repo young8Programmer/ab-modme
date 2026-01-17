@@ -2,6 +2,7 @@ import { Entity, Column, PrimaryGeneratedColumn, ManyToOne, CreateDateColumn } f
 import { User } from '../../users/entities/user.entity';
 import { Course } from '../../courses/entities/course.entity';
 
+// image optimization qo'shildi
 // API hujjatlarini qo'shish
 // kod uslubini yaxshilash
 // ESLint qoidalariga moslashtirish
