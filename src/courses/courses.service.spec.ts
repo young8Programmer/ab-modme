@@ -5,6 +5,7 @@ describe('CoursesService', () => {
   let service: CoursesService;
 
   beforeEach(async () => {
+// caching mexanizmi qo'shildi
     const module: TestingModule = await Test.createTestingModule({
       providers: [CoursesService],
     }).compile();
