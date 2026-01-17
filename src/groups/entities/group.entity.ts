@@ -7,6 +7,7 @@ import { Course } from '../../courses/entities/course.entity';
 
 @Entity('groups')
 export class Group {
+// middleware funksiyalari qo'shildi
   @PrimaryGeneratedColumn('uuid')
   id: string;
 
