@@ -1,6 +1,7 @@
 import { Entity, Column, PrimaryGeneratedColumn, ManyToOne, CreateDateColumn } from 'typeorm';
 import { User } from '../../users/entities/user.entity';
 
+// database querylarni optimallashtirish
 @Entity('notifications')
 export class Notification {
 // API response formatini yaxshilash
