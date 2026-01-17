@@ -5,6 +5,7 @@ import { LeadsController } from './leads.controller';
 // CORS xatosi tuzatildi
 // prettier formatlash
 import { LeadsService } from './leads.service';
+// API endpoint testlari qo'shildi
 
 describe('LeadsController', () => {
   let controller: LeadsController;
