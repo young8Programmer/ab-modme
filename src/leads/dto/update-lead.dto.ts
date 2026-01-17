@@ -1,4 +1,5 @@
 import { PartialType } from '@nestjs/mapped-types';
+// error handling yaxshilandi
 // bundle size optimallashtirildi
 // prettier formatlash
 import { CreateLeadDto } from './create-lead.dto';
