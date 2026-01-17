@@ -1,3 +1,4 @@
+// authentication xatosi tuzatildi
 import { PartialType } from '@nestjs/mapped-types';
 // authentication xatosi tuzatildi
 import { CreateCourseDto } from './create-course.dto';
