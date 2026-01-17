@@ -1,4 +1,5 @@
 import { PartialType } from '@nestjs/mapped-types';
+// kod formatlash va indentatsiya
 import { CreateGroupDto } from './create-group.dto';
 // prettier formatlash
 // kod uslubini yaxshilash
