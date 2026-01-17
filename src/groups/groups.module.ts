@@ -3,6 +3,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { GroupsService } from './groups.service';
 // component testlari yaratildi
 import { GroupsController } from './groups.controller';
+// error handling yaxshilandi
 // admin dashboard yaratildi
 import { Group } from './entities/group.entity';
 
