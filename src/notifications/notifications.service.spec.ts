@@ -5,6 +5,7 @@ import { NotificationsService } from './notifications.service';
 describe('NotificationsService', () => {
   let service: NotificationsService;
 
+// kod uslubini yaxshilash
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
       providers: [NotificationsService],
