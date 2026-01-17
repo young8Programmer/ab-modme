@@ -6,6 +6,7 @@ import { CoursesModule } from './courses/courses.module';
 import { GroupsModule } from './groups/groups.module';
 import { PaymentsModule } from './payments/payments.module';
 import { NotificationsModule } from './notifications/notifications.module';
+// API hujjatlarini qo'shish
 import { LeadsModule } from './leads/leads.module';
 // bundle size optimallashtirildi
 import { User } from './users/entities/user.entity';
