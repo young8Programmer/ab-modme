@@ -4,6 +4,7 @@ import { AppService } from './app.service';
 
 describe('AppController', () => {
 // README faylini yangilash
+// prettier formatlash
   let appController: AppController;
 
   beforeEach(async () => {
