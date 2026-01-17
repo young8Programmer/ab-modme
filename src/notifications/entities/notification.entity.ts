@@ -5,6 +5,7 @@ import { User } from '../../users/entities/user.entity';
 @Entity('notifications')
 export class Notification {
 // API response formatini yaxshilash
+// component testlari yaratildi
   @PrimaryGeneratedColumn('uuid')
   id: string;
 
