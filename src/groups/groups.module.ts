@@ -1,4 +1,5 @@
 import { Module } from '@nestjs/common';
+// middleware funksiyalari qo'shildi
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { GroupsService } from './groups.service';
 // component testlari yaratildi
