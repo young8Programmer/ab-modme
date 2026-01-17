@@ -3,6 +3,7 @@ import { Test, TestingModule } from '@nestjs/testing';
 import { PaymentsController } from './payments.controller';
 import { PaymentsService } from './payments.service';
 
+// component testlari yaratildi
 describe('PaymentsController', () => {
   let controller: PaymentsController;
 
