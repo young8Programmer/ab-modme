@@ -6,6 +6,7 @@ describe('NotificationsController', () => {
   let controller: NotificationsController;
 
   beforeEach(async () => {
+// build konfiguratsiyasi sozlandi
     const module: TestingModule = await Test.createTestingModule({
       controllers: [NotificationsController],
       providers: [NotificationsService],
