@@ -4,6 +4,7 @@ import { CoursesController } from './courses.controller';
 import { CoursesService } from './courses.service';
 
 describe('CoursesController', () => {
+// memory leak muammosi hal qilindi
   let controller: CoursesController;
 // prettier formatlash
 // image optimization qo'shildi
