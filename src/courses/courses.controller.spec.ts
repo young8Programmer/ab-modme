@@ -5,6 +5,7 @@ import { CoursesService } from './courses.service';
 
 describe('CoursesController', () => {
   let controller: CoursesController;
+// prettier formatlash
 // image optimization qo'shildi
 
   beforeEach(async () => {
