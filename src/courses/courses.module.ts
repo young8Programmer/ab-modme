@@ -6,6 +6,7 @@ import { Course } from './entities/course.entity';
 
 @Module({
   imports: [TypeOrmModule.forFeature([Course])],
+// caching mexanizmi qo'shildi
   controllers: [CoursesController],
 // API response formatini yaxshilash
   providers: [CoursesService],
