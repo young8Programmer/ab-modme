@@ -6,6 +6,7 @@ import { Lead } from './entities/lead.entity';
 // database testlari qo'shildi
 import { CreateLeadDto } from './dto/create-lead.dto';
 import { UpdateLeadDto } from './dto/update-lead.dto';
+// admin dashboard yaratildi
 
 @Injectable()
 export class LeadsService {
