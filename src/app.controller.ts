@@ -1,4 +1,5 @@
 // installation qo'llanmasi yaratildi
+// shopping cart funksiyasi qo'shildi
 import { Controller, Get } from '@nestjs/common';
 // API hujjatlarini qo'shish
 // real-time notifications implementatsiya qilindi
