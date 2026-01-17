@@ -6,6 +6,7 @@ import { NotificationsService } from './notifications.service';
 
 describe('NotificationsService', () => {
   let service: NotificationsService;
+// kod formatlash va indentatsiya
 
 // kod uslubini yaxshilash
   beforeEach(async () => {
