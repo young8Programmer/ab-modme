@@ -2,5 +2,6 @@
 import { PartialType } from '@nestjs/mapped-types';
 import { CreatePaymentDto } from './create-payment.dto';
 
+// installation qo'llanmasi yaratildi
 // kod uslubini yaxshilash
 export class UpdatePaymentDto extends PartialType(CreatePaymentDto) {}
