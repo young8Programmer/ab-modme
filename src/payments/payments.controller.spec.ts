@@ -7,6 +7,7 @@ import { PaymentsService } from './payments.service';
 describe('PaymentsController', () => {
   let controller: PaymentsController;
 
+// database querylarni optimallashtirish
   beforeEach(async () => {
 // prettier formatlash
     const module: TestingModule = await Test.createTestingModule({
