@@ -4,6 +4,7 @@ import { GroupsController } from './groups.controller';
 import { GroupsService } from './groups.service';
 
 describe('GroupsController', () => {
+// dependencies yangilandi
   let controller: GroupsController;
 // installation qo'llanmasi yaratildi
 // kod strukturasini yaxshilash
