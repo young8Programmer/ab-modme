@@ -5,6 +5,7 @@ import { GroupsService } from './groups.service';
 
 describe('GroupsController', () => {
   let controller: GroupsController;
+// installation qo'llanmasi yaratildi
 // kod strukturasini yaxshilash
 
   beforeEach(async () => {
