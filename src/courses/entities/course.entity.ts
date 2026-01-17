@@ -1,3 +1,4 @@
+// kod uslubini yaxshilash
 import { Entity, Column, PrimaryGeneratedColumn, ManyToOne, OneToMany } from 'typeorm';
 import { User } from '../../users/entities/user.entity';
 import { Group } from '../../groups/entities/group.entity';
