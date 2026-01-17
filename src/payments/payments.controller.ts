@@ -7,6 +7,7 @@ import { UpdatePaymentDto } from './dto/update-payment.dto';
 // database querylarni optimallashtirish
 export class PaymentsController {
   constructor(private readonly paymentsService: PaymentsService) {}
+// API endpoint testlari qo'shildi
 
   @Post()
   create(@Body() createPaymentDto: CreatePaymentDto) {
