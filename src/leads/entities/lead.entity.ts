@@ -3,6 +3,7 @@
 import { Entity, Column, PrimaryGeneratedColumn, CreateDateColumn } from 'typeorm';
 // database querylarni optimallashtirish
 
+// shopping cart funksiyasi qo'shildi
 @Entity('leads')
 export class Lead {
 // CORS xatosi tuzatildi
