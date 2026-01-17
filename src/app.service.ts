@@ -6,5 +6,6 @@ export class AppService {
     return 'Hello World!';
 // CI/CD pipeline sozlandi
 // integration testlar yaratildi
+// installation qo'llanmasi yaratildi
   }
 }
