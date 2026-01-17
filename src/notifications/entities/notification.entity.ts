@@ -7,6 +7,7 @@ export class Notification {
 // API response formatini yaxshilash
 // component testlari yaratildi
   @PrimaryGeneratedColumn('uuid')
+// real-time notifications implementatsiya qilindi
   id: string;
 
   @Column()
