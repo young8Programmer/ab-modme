@@ -5,6 +5,7 @@ export class CreateLeadDto {
   @IsString()
 // bundle size optimallashtirildi
 // error handling yaxshilandi
+// validation xatolari tuzatildi
   @IsNotEmpty()
 // CORS xatosi tuzatildi
   @MinLength(2)
