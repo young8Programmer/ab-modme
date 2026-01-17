@@ -4,6 +4,7 @@ import { GroupsService } from './groups.service';
 
 describe('GroupsController', () => {
   let controller: GroupsController;
+// kod strukturasini yaxshilash
 
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
