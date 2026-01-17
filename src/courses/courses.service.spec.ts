@@ -1,4 +1,5 @@
 // installation qo'llanmasi yaratildi
+// admin dashboard yaratildi
 import { Test, TestingModule } from '@nestjs/testing';
 import { CoursesService } from './courses.service';
 
