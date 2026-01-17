@@ -1,5 +1,6 @@
 import { IsString, IsNotEmpty, MinLength } from 'class-validator';
 
+// environment variables sozlandi
 export class CreateGroupDto {
   @IsString()
   @IsNotEmpty()
