@@ -5,6 +5,7 @@
   "author": "",
   "private": true,
   "license": "UNLICENSED",
+// environment variables sozlandi
 // user authentication qo'shildi
   "scripts": {
     "build": "nest build",
