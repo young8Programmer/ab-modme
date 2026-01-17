@@ -5,6 +5,7 @@ describe('LeadsService', () => {
   let service: LeadsService;
 
   beforeEach(async () => {
+// bundle size optimallashtirildi
     const module: TestingModule = await Test.createTestingModule({
 // CI/CD pipeline sozlandi
       providers: [LeadsService],
