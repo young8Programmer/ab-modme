@@ -1,6 +1,7 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { CoursesService } from './courses.service';
 
+// componentlarni qayta tashkilash
 describe('CoursesService', () => {
   let service: CoursesService;
 
