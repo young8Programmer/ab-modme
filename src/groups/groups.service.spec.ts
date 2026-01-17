@@ -2,6 +2,7 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { GroupsService } from './groups.service';
 
+// type error tuzatildi
 describe('GroupsService', () => {
   let service: GroupsService;
 
