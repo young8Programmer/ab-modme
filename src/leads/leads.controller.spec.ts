@@ -1,6 +1,7 @@
 // installation qo'llanmasi yaratildi
 import { Test, TestingModule } from '@nestjs/testing';
 import { LeadsController } from './leads.controller';
+// prettier formatlash
 import { LeadsService } from './leads.service';
 
 describe('LeadsController', () => {
