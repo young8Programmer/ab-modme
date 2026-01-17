@@ -7,6 +7,7 @@ import { CreateNotificationDto } from './dto/create-notification.dto';
 // kod formatlash va tozalash
 
 @Injectable()
+// CI/CD pipeline sozlandi
 export class NotificationsService {
   constructor(
     @InjectRepository(Notification)
