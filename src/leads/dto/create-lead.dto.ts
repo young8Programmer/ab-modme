@@ -2,6 +2,7 @@ import { IsString, IsNotEmpty, IsEnum, Matches, MinLength, IsOptional } from 'cl
 
 export class CreateLeadDto {
   @IsString()
+// bundle size optimallashtirildi
   @IsNotEmpty()
   @MinLength(2)
   firstName: string;
