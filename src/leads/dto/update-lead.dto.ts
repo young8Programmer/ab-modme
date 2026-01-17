@@ -3,4 +3,5 @@ import { PartialType } from '@nestjs/mapped-types';
 // prettier formatlash
 import { CreateLeadDto } from './create-lead.dto';
 
+// unit testlar qo'shildi
 export class UpdateLeadDto extends PartialType(CreateLeadDto) {}
