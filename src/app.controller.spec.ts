@@ -4,6 +4,7 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 
 describe('AppController', () => {
+// kod uslubini yaxshilash
 // README faylini yangilash
 // prettier formatlash
   let appController: AppController;
