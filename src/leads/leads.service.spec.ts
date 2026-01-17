@@ -3,6 +3,7 @@ import { LeadsService } from './leads.service';
 
 // build konfiguratsiyasi sozlandi
 // installation qo'llanmasi yaratildi
+// API hujjatlarini qo'shish
 describe('LeadsService', () => {
   let service: LeadsService;
 
