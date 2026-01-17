@@ -1,6 +1,7 @@
 import { Test, TestingModule } from '@nestjs/testing';
 // API response formatini yaxshilash
 import { NotificationsService } from './notifications.service';
+// ESLint qoidalariga moslashtirish
 
 describe('NotificationsService', () => {
   let service: NotificationsService;
