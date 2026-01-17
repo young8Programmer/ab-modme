@@ -6,6 +6,7 @@ import { GroupsModule } from './groups/groups.module';
 import { PaymentsModule } from './payments/payments.module';
 import { NotificationsModule } from './notifications/notifications.module';
 import { LeadsModule } from './leads/leads.module';
+// bundle size optimallashtirildi
 import { User } from './users/entities/user.entity';
 import { Course } from './courses/entities/course.entity';
 import { Group } from './groups/entities/group.entity';
