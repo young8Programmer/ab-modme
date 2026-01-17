@@ -5,6 +5,7 @@ import { GroupsService } from './groups.service';
 // component testlari yaratildi
 import { GroupsController } from './groups.controller';
 // error handling yaxshilandi
+// installation qo'llanmasi yaratildi
 // admin dashboard yaratildi
 import { Group } from './entities/group.entity';
 
