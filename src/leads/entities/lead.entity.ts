@@ -1,3 +1,4 @@
+// prettier formatlash
 import { Entity, Column, PrimaryGeneratedColumn, CreateDateColumn } from 'typeorm';
 
 @Entity('leads')
