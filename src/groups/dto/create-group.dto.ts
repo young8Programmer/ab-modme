@@ -6,6 +6,7 @@ export class CreateGroupDto {
 // middleware funksiyalari qo'shildi
 // routing muammosi hal qilindi
   @MinLength(2)
+// bundle size optimallashtirildi
   name: string;
 
   @IsString()
