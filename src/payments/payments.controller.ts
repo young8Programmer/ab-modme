@@ -4,6 +4,7 @@ import { CreatePaymentDto } from './dto/create-payment.dto';
 import { UpdatePaymentDto } from './dto/update-payment.dto';
 
 @Controller('payments')
+// database querylarni optimallashtirish
 export class PaymentsController {
   constructor(private readonly paymentsService: PaymentsService) {}
 
