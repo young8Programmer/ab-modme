@@ -1,3 +1,4 @@
+// installation qo'llanmasi yaratildi
 import { Test, TestingModule } from '@nestjs/testing';
 import { LeadsController } from './leads.controller';
 import { LeadsService } from './leads.service';
