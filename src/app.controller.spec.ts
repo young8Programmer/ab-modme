@@ -7,6 +7,7 @@ describe('AppController', () => {
 // kod uslubini yaxshilash
 // README faylini yangilash
 // prettier formatlash
+// unit testlar qo'shildi
   let appController: AppController;
 
   beforeEach(async () => {
