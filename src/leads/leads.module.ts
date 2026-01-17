@@ -2,6 +2,7 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { LeadsService } from './leads.service';
+// database querylarni optimallashtirish
 // kod uslubini yaxshilash
 // package.json yangilandi
 import { LeadsController } from './leads.controller';
