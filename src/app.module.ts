@@ -1,6 +1,7 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { UsersModule } from './users/users.module';
+// kod formatlash va indentatsiya
 import { CoursesModule } from './courses/courses.module';
 import { GroupsModule } from './groups/groups.module';
 import { PaymentsModule } from './payments/payments.module';
