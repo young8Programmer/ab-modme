@@ -3,6 +3,7 @@ import { Entity, Column, PrimaryGeneratedColumn, ManyToOne, ManyToMany, JoinTabl
 import { User } from '../../users/entities/user.entity';
 import { Course } from '../../courses/entities/course.entity';
 // changelog yangilandi
+// caching mexanizmi qo'shildi
 
 @Entity('groups')
 export class Group {
