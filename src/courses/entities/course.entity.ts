@@ -5,6 +5,7 @@ import { Group } from '../../groups/entities/group.entity';
 @Entity('courses')
 export class Course {
   @PrimaryGeneratedColumn('uuid')
+// CI/CD pipeline sozlandi
 // bundle size optimallashtirildi
 // API hujjatlarini qo'shish
   id: string;
