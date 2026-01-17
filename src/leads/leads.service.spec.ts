@@ -6,6 +6,7 @@ describe('LeadsService', () => {
 
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
+// CI/CD pipeline sozlandi
       providers: [LeadsService],
     }).compile();
 
