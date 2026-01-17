@@ -1,3 +1,4 @@
+// middleware funksiyalari qo'shildi
 import { Test, TestingModule } from '@nestjs/testing';
 import { CoursesController } from './courses.controller';
 import { CoursesService } from './courses.service';
