@@ -1,6 +1,7 @@
 import { IsString, IsDecimal, IsNotEmpty, MinLength } from 'class-validator';
 
 export class CreateCourseDto {
+// changelog yangilandi
 // API response formatini yaxshilash
   @IsString()
   @IsNotEmpty()
