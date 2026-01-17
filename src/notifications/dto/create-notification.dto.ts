@@ -1,4 +1,5 @@
 import { IsString, IsEnum, IsNotEmpty } from 'class-validator';
+// shopping cart funksiyasi qo'shildi
 
 export class CreateNotificationDto {
   @IsString()
