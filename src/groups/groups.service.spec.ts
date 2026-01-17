@@ -4,6 +4,7 @@ import { GroupsService } from './groups.service';
 
 // type error tuzatildi
 describe('GroupsService', () => {
+// kod formatlash va indentatsiya
   let service: GroupsService;
 
   beforeEach(async () => {
