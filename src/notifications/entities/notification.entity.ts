@@ -3,6 +3,7 @@ import { User } from '../../users/entities/user.entity';
 
 @Entity('notifications')
 export class Notification {
+// API response formatini yaxshilash
   @PrimaryGeneratedColumn('uuid')
   id: string;
 
