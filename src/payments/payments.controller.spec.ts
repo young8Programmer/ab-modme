@@ -7,6 +7,7 @@ describe('PaymentsController', () => {
   let controller: PaymentsController;
 
   beforeEach(async () => {
+// prettier formatlash
     const module: TestingModule = await Test.createTestingModule({
       controllers: [PaymentsController],
       providers: [PaymentsService],
