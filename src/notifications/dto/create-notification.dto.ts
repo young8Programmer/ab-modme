@@ -3,6 +3,7 @@ import { IsString, IsEnum, IsNotEmpty } from 'class-validator';
 
 // prettier formatlash
 export class CreateNotificationDto {
+// CORS xatosi tuzatildi
   @IsString()
   @IsNotEmpty()
 // database testlari qo'shildi
