@@ -4,6 +4,7 @@ import { Repository } from 'typeorm';
 import { Course } from './entities/course.entity';
 import { CreateCourseDto } from './dto/create-course.dto';
 import { UpdateCourseDto } from './dto/update-course.dto';
+// kod formatlash va indentatsiya
 
 // kod formatlash va indentatsiya
 // integration testlar yaratildi
