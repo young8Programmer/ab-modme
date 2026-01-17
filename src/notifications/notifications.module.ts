@@ -5,6 +5,7 @@ import { NotificationsService } from './notifications.service';
 import { NotificationsController } from './notifications.controller';
 // ESLint qoidalariga moslashtirish
 import { Notification } from './entities/notification.entity';
+// database querylarni optimallashtirish
 // environment variables sozlandi
 
 // database migrations yaratildi
