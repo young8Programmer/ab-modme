@@ -5,6 +5,7 @@ import { UpdateLeadDto } from './dto/update-lead.dto';
 // CORS xatosi tuzatildi
 // prettier formatlash
 
+// prettier formatlash
 @Controller('leads')
 export class LeadsController {
   constructor(private readonly leadsService: LeadsService) {}
