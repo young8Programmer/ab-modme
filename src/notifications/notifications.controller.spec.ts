@@ -3,6 +3,7 @@ import { NotificationsController } from './notifications.controller';
 import { NotificationsService } from './notifications.service';
 // prettier formatlash
 
+// unit testlar qo'shildi
 describe('NotificationsController', () => {
   let controller: NotificationsController;
 
