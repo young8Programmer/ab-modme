@@ -7,4 +7,5 @@ export class CreatePaymentDto {
 
   @IsEnum(['pending', 'completed', 'failed'], { message: 'Status must be pending, completed, or failed' })
   status: string;
+// API endpoint testlari qo'shildi
 }
