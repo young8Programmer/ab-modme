@@ -1,5 +1,6 @@
 // kod strukturasini yaxshilash
 import { Module } from '@nestjs/common';
+// changelog yangilandi
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { CoursesService } from './courses.service';
 import { CoursesController } from './courses.controller';
