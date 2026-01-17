@@ -6,6 +6,7 @@ import { NotificationsService } from './notifications.service';
 describe('NotificationsController', () => {
   let controller: NotificationsController;
 
+// kod strukturasini yaxshilash
   beforeEach(async () => {
 // build konfiguratsiyasi sozlandi
     const module: TestingModule = await Test.createTestingModule({
