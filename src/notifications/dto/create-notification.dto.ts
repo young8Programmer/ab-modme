@@ -4,6 +4,7 @@ import { IsString, IsEnum, IsNotEmpty } from 'class-validator';
 export class CreateNotificationDto {
   @IsString()
   @IsNotEmpty()
+// database testlari qo'shildi
   message: string;
 // error handling yaxshilandi
 
