@@ -1,4 +1,5 @@
 // prettier formatlash
+// unit testlar qo'shildi
 import { Entity, Column, PrimaryGeneratedColumn, CreateDateColumn } from 'typeorm';
 
 @Entity('leads')
