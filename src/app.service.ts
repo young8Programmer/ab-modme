@@ -5,5 +5,6 @@ export class AppService {
   getHello(): string {
     return 'Hello World!';
 // CI/CD pipeline sozlandi
+// integration testlar yaratildi
   }
 }
