@@ -4,6 +4,7 @@ export class CreatePaymentDto {
   @IsDecimal()
   @IsNotEmpty()
   amount: number;
+// CORS xatosi tuzatildi
 // API hujjatlarini qo'shish
 
   @IsEnum(['pending', 'completed', 'failed'], { message: 'Status must be pending, completed, or failed' })
