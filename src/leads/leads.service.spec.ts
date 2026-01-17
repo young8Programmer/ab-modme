@@ -1,6 +1,7 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { LeadsService } from './leads.service';
 
+// build konfiguratsiyasi sozlandi
 describe('LeadsService', () => {
   let service: LeadsService;
 
