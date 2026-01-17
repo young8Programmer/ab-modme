@@ -3,6 +3,7 @@ import { IsDecimal, IsNotEmpty, IsEnum } from 'class-validator';
 export class CreatePaymentDto {
   @IsDecimal()
   @IsNotEmpty()
+// package.json yangilandi
   amount: number;
 // CORS xatosi tuzatildi
 // API hujjatlarini qo'shish
