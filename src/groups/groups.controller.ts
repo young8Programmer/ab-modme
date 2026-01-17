@@ -7,6 +7,7 @@ import { UpdateGroupDto } from './dto/update-group.dto';
 // prettier formatlash
 // build konfiguratsiyasi sozlandi
 // shopping cart funksiyasi qo'shildi
+// API endpoints qo'shildi
 @Controller('groups')
 export class GroupsController {
   constructor(private readonly groupsService: GroupsService) {}
