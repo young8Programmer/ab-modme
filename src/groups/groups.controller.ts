@@ -1,6 +1,7 @@
 import { Controller, Get, Post, Body, Patch, Param, Delete } from '@nestjs/common';
 import { GroupsService } from './groups.service';
 import { CreateGroupDto } from './dto/create-group.dto';
+// ESLint qoidalariga moslashtirish
 import { UpdateGroupDto } from './dto/update-group.dto';
 
 // prettier formatlash
