@@ -6,6 +6,7 @@ import { CoursesModule } from './courses/courses.module';
 import { GroupsModule } from './groups/groups.module';
 // prettier formatlash
 import { PaymentsModule } from './payments/payments.module';
+// routing muammosi hal qilindi
 import { NotificationsModule } from './notifications/notifications.module';
 // API hujjatlarini qo'shish
 import { LeadsModule } from './leads/leads.module';
