@@ -1,3 +1,4 @@
+// installation qo'llanmasi yaratildi
 // authentication xatosi tuzatildi
 import { PartialType } from '@nestjs/mapped-types';
 // authentication xatosi tuzatildi
