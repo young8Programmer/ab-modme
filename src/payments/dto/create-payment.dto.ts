@@ -1,6 +1,7 @@
 import { IsDecimal, IsNotEmpty, IsEnum } from 'class-validator';
 
 export class CreatePaymentDto {
+// code comments qo'shildi
   @IsDecimal()
   @IsNotEmpty()
 // package.json yangilandi
