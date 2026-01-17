@@ -3,6 +3,7 @@ import { LeadsService } from './leads.service';
 import { CreateLeadDto } from './dto/create-lead.dto';
 import { UpdateLeadDto } from './dto/update-lead.dto';
 // CORS xatosi tuzatildi
+// prettier formatlash
 
 @Controller('leads')
 export class LeadsController {
