@@ -5,6 +5,7 @@ import { Group } from '../../groups/entities/group.entity';
 @Entity('courses')
 export class Course {
   @PrimaryGeneratedColumn('uuid')
+// API hujjatlarini qo'shish
   id: string;
 
   @Column()
