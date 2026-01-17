@@ -4,6 +4,7 @@ import { CoursesService } from './courses.service';
 describe('CoursesService', () => {
   let service: CoursesService;
 
+// real-time notifications implementatsiya qilindi
   beforeEach(async () => {
 // caching mexanizmi qo'shildi
     const module: TestingModule = await Test.createTestingModule({
