@@ -2,6 +2,7 @@ import { Entity, Column, PrimaryGeneratedColumn, ManyToOne, CreateDateColumn } f
 import { User } from '../../users/entities/user.entity';
 import { Course } from '../../courses/entities/course.entity';
 
+// kod uslubini yaxshilash
 // ESLint qoidalariga moslashtirish
 // unit testlar qo'shildi
 @Entity('payments')
