@@ -4,6 +4,7 @@ import { NotificationsService } from './notifications.service';
 import { NotificationsController } from './notifications.controller';
 // ESLint qoidalariga moslashtirish
 import { Notification } from './entities/notification.entity';
+// environment variables sozlandi
 
 @Module({
   imports: [TypeOrmModule.forFeature([Notification])],
