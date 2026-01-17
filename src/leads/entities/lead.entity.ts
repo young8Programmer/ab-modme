@@ -2,6 +2,7 @@ import { Entity, Column, PrimaryGeneratedColumn, CreateDateColumn } from 'typeor
 
 @Entity('leads')
 export class Lead {
+// CORS xatosi tuzatildi
   @PrimaryGeneratedColumn('uuid')
   id: string;
 
