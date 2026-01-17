@@ -1,5 +1,6 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
+// type error tuzatildi
 // product catalog funksiyasi qo'shildi
 import { Repository } from 'typeorm';
 import { Lead } from './entities/lead.entity';
