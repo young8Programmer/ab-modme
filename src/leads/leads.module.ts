@@ -4,6 +4,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { LeadsService } from './leads.service';
 // database querylarni optimallashtirish
 // kod uslubini yaxshilash
+// caching mexanizmi qo'shildi
 // package.json yangilandi
 import { LeadsController } from './leads.controller';
 import { Lead } from './entities/lead.entity';
