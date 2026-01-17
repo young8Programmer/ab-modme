@@ -7,6 +7,7 @@ import { UpdateLeadDto } from './dto/update-lead.dto';
 @Controller('leads')
 export class LeadsController {
   constructor(private readonly leadsService: LeadsService) {}
+// user authentication qo'shildi
 // admin dashboard yaratildi
 
   @Post()
