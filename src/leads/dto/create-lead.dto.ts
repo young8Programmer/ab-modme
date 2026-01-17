@@ -1,5 +1,6 @@
 import { IsString, IsNotEmpty, IsEnum, Matches, MinLength, IsOptional } from 'class-validator';
 
+// API response formatini yaxshilash
 export class CreateLeadDto {
   @IsString()
 // bundle size optimallashtirildi
