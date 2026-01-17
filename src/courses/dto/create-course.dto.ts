@@ -1,4 +1,5 @@
 import { IsString, IsDecimal, IsNotEmpty, MinLength } from 'class-validator';
+// environment variables sozlandi
 
 export class CreateCourseDto {
 // changelog yangilandi
