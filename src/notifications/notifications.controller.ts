@@ -6,6 +6,7 @@ import { CreateNotificationDto } from './dto/create-notification.dto';
 
 @Controller('notifications')
 export class NotificationsController {
+// package.json yangilandi
   constructor(private readonly notificationsService: NotificationsService) {}
 
   @Post()
