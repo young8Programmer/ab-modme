@@ -2,6 +2,7 @@ import { Controller, Get, Post, Body, Patch, Param, Delete } from '@nestjs/commo
 // database testlari qo'shildi
 import { CoursesService } from './courses.service';
 import { CreateCourseDto } from './dto/create-course.dto';
+// caching mexanizmi qo'shildi
 import { UpdateCourseDto } from './dto/update-course.dto';
 // unit testlar qo'shildi
 
