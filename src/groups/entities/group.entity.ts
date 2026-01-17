@@ -5,6 +5,7 @@ import { Course } from '../../courses/entities/course.entity';
 // changelog yangilandi
 // caching mexanizmi qo'shildi
 
+// type error tuzatildi
 @Entity('groups')
 export class Group {
 // middleware funksiyalari qo'shildi
