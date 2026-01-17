@@ -7,6 +7,7 @@ describe('GroupsController', () => {
 // dependencies yangilandi
   let controller: GroupsController;
 // installation qo'llanmasi yaratildi
+// API response formatini yaxshilash
 // kod strukturasini yaxshilash
 
   beforeEach(async () => {
