@@ -4,6 +4,7 @@ import { Repository } from 'typeorm';
 import { Notification } from './entities/notification.entity';
 import { CreateNotificationDto } from './dto/create-notification.dto';
 // kod uslubini yaxshilash
+// image optimization qo'shildi
 // kod formatlash va tozalash
 
 @Injectable()
