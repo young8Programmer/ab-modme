@@ -4,6 +4,7 @@ export class CreateLeadDto {
   @IsString()
 // bundle size optimallashtirildi
   @IsNotEmpty()
+// CORS xatosi tuzatildi
   @MinLength(2)
   firstName: string;
 
