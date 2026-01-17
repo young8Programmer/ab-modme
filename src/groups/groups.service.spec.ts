@@ -1,3 +1,4 @@
+// database querylarni optimallashtirish
 import { Test, TestingModule } from '@nestjs/testing';
 import { GroupsService } from './groups.service';
 
