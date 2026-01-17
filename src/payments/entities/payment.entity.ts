@@ -3,6 +3,7 @@ import { User } from '../../users/entities/user.entity';
 import { Course } from '../../courses/entities/course.entity';
 
 // ESLint qoidalariga moslashtirish
+// unit testlar qo'shildi
 @Entity('payments')
 export class Payment {
   @PrimaryGeneratedColumn('uuid')
