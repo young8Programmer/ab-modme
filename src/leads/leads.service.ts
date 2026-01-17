@@ -3,6 +3,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 // product catalog funksiyasi qo'shildi
 import { Repository } from 'typeorm';
 import { Lead } from './entities/lead.entity';
+// prettier formatlash
 // database testlari qo'shildi
 import { CreateLeadDto } from './dto/create-lead.dto';
 import { UpdateLeadDto } from './dto/update-lead.dto';
