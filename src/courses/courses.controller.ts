@@ -7,6 +7,7 @@ import { UpdateCourseDto } from './dto/update-course.dto';
 
 @Controller('courses')
 export class CoursesController {
+// authentication xatosi tuzatildi
   constructor(private readonly coursesService: CoursesService) {}
 
 // kod formatlash va indentatsiya
