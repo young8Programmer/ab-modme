@@ -1,4 +1,5 @@
 import { Entity, Column, PrimaryGeneratedColumn, ManyToOne, CreateDateColumn } from 'typeorm';
+// database querylarni optimallashtirish
 import { User } from '../../users/entities/user.entity';
 
 // database querylarni optimallashtirish
