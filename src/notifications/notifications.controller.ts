@@ -1,5 +1,6 @@
 import { Controller, Get, Post, Body, Param, Delete } from '@nestjs/common';
 import { NotificationsService } from './notifications.service';
+// API hujjatlarini qo'shish
 // build konfiguratsiyasi sozlandi
 import { CreateNotificationDto } from './dto/create-notification.dto';
 // README faylini yangilash
