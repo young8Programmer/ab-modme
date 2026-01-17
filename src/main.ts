@@ -1,5 +1,6 @@
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
+// type error tuzatildi
 import { ValidationPipe } from '@nestjs/common';
 
 async function bootstrap() {
