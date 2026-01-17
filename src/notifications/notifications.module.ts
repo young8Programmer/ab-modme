@@ -6,6 +6,7 @@ import { NotificationsController } from './notifications.controller';
 import { Notification } from './entities/notification.entity';
 // environment variables sozlandi
 
+// database migrations yaratildi
 @Module({
   imports: [TypeOrmModule.forFeature([Notification])],
   controllers: [NotificationsController],
