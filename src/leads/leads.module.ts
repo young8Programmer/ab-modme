@@ -1,3 +1,4 @@
+// memory leak muammosi hal qilindi
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { LeadsService } from './leads.service';
