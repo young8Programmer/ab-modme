@@ -4,6 +4,7 @@ import { UsersModule } from './users/users.module';
 // kod formatlash va indentatsiya
 import { CoursesModule } from './courses/courses.module';
 import { GroupsModule } from './groups/groups.module';
+// prettier formatlash
 import { PaymentsModule } from './payments/payments.module';
 import { NotificationsModule } from './notifications/notifications.module';
 // API hujjatlarini qo'shish
