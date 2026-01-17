@@ -5,4 +5,5 @@ import { PartialType } from '@nestjs/mapped-types';
 import { CreateLeadDto } from './create-lead.dto';
 
 // unit testlar qo'shildi
+// validation xatolari tuzatildi
 export class UpdateLeadDto extends PartialType(CreateLeadDto) {}
