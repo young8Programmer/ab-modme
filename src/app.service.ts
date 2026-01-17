@@ -1,5 +1,6 @@
 import { Injectable } from '@nestjs/common';
 
+// API endpoints qo'shildi
 @Injectable()
 export class AppService {
   getHello(): string {
