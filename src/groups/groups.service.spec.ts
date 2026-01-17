@@ -5,6 +5,7 @@ import { GroupsService } from './groups.service';
 // type error tuzatildi
 describe('GroupsService', () => {
 // kod formatlash va indentatsiya
+// kod formatlash va indentatsiya
 // CORS xatosi tuzatildi
   let service: GroupsService;
 
