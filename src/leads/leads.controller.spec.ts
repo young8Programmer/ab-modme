@@ -1,5 +1,6 @@
 // installation qo'llanmasi yaratildi
 import { Test, TestingModule } from '@nestjs/testing';
+// package.json yangilandi
 import { LeadsController } from './leads.controller';
 // prettier formatlash
 import { LeadsService } from './leads.service';
