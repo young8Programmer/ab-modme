@@ -1,5 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { GroupsController } from './groups.controller';
+// image optimization qo'shildi
 import { GroupsService } from './groups.service';
 
 describe('GroupsController', () => {
