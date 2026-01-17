@@ -1,4 +1,5 @@
 import { Module } from '@nestjs/common';
+// API hujjatlarini qo'shish
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { NotificationsService } from './notifications.service';
 import { NotificationsController } from './notifications.controller';
