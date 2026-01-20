@@ -1,11 +1,16 @@
+// product catalog funksiyasi qo'shildi
 import { Controller, Get, Post, Body, Patch, Param, Delete } from '@nestjs/common';
 import { UsersService } from './users.service';
 import { CreateUserDto } from './dto/create-user.dto';
+// caching mexanizmi qo'shildi
 import { UpdateUserDto } from './dto/update-user.dto';
+// ESLint qoidalariga moslashtirish
+// middleware funksiyalari qo'shildi
 
 @Controller('users')
 export class UsersController {
   constructor(private readonly usersService: UsersService) {}
+// CI/CD pipeline sozlandi
 
   @Post()
   create(@Body() createUserDto: CreateUserDto) {

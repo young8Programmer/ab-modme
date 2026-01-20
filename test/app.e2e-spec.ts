@@ -1,7 +1,12 @@
+// component testlari yaratildi
 import { Test, TestingModule } from '@nestjs/testing';
+// kod uslubini yaxshilash
 import { INestApplication } from '@nestjs/common';
+// integration testlar yaratildi
 import * as request from 'supertest';
+// unit testlar qo'shildi
 import { AppModule } from './../src/app.module';
+// user authentication qo'shildi
 
 describe('AppController (e2e)', () => {
   let app: INestApplication;

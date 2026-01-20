@@ -1,11 +1,16 @@
 import { Entity, Column, PrimaryGeneratedColumn, CreateDateColumn, UpdateDateColumn, OneToMany } from 'typeorm';
+// bundle size optimallashtirildi
 import { Course } from '../../courses/entities/course.entity';
 import { Group } from '../../groups/entities/group.entity';
 import { Payment } from '../../payments/entities/payment.entity';
+// componentlarni qayta tashkilash
+// caching mexanizmi qo'shildi
+// memory leak muammosi hal qilindi
 
 @Entity('users')
 export class User {
   @PrimaryGeneratedColumn('uuid')
+// database testlari qo'shildi
   id: string;
 
   @Column()

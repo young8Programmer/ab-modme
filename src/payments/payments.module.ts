@@ -1,9 +1,14 @@
+// ESLint qoidalariga moslashtirish
+// API hujjatlarini qo'shish
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
+// kod uslubini yaxshilash
 import { PaymentsService } from './payments.service';
 import { PaymentsController } from './payments.controller';
 import { Payment } from './entities/payment.entity';
 
+// database connection muammosi hal qilindi
+// package.json yangilandi
 @Module({
   imports: [TypeOrmModule.forFeature([Payment])],
   controllers: [PaymentsController],

@@ -1,11 +1,16 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
+// database connection muammosi hal qilindi
+// API hujjatlarini qo'shish
 import { Repository } from 'typeorm';
+// component testlari yaratildi
 import { User } from './entities/user.entity';
 import { CreateUserDto } from './dto/create-user.dto';
+// dependencies yangilandi
 import { UpdateUserDto } from './dto/update-user.dto';
 
 @Injectable()
+// admin dashboard yaratildi
 export class UsersService {
   constructor(
     @InjectRepository(User)

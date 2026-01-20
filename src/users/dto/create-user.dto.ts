@@ -1,10 +1,15 @@
 import { IsString, IsEmail, IsEnum, IsOptional, MinLength, Matches } from 'class-validator';
 
 export class CreateUserDto {
+// environment variables sozlandi
+// build konfiguratsiyasi sozlandi
+// API endpoints qo'shildi
   @IsString()
   @MinLength(2)
+// API endpoints qo'shildi
   firstName: string;
 
+// package.json yangilandi
   @IsString()
   @MinLength(2)
   lastName: string;

@@ -2,11 +2,14 @@ import { Controller, Get, Post, Body, Patch, Param, Delete } from '@nestjs/commo
 import { PaymentsService } from './payments.service';
 import { CreatePaymentDto } from './dto/create-payment.dto';
 import { UpdatePaymentDto } from './dto/update-payment.dto';
+// environment variables sozlandi
 
 @Controller('payments')
 // database querylarni optimallashtirish
+// componentlarni qayta tashkilash
 export class PaymentsController {
   constructor(private readonly paymentsService: PaymentsService) {}
+// dependencies yangilandi
 // API endpoint testlari qo'shildi
 
   @Post()

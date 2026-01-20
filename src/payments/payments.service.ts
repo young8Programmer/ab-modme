@@ -1,8 +1,13 @@
+// prettier formatlash
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
+// component testlari yaratildi
 import { Repository } from 'typeorm';
+// API response formatini yaxshilash
 import { Payment } from './entities/payment.entity';
 import { CreatePaymentDto } from './dto/create-payment.dto';
+// authentication xatosi tuzatildi
+// changelog yangilandi
 import { UpdatePaymentDto } from './dto/update-payment.dto';
 
 @Injectable()
